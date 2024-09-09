@@ -1,0 +1,481 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui;
+}
+
+.container {
+  
+  width: 1440px;
+  background-color: #212121;
+  margin-inline: auto;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 34px;
+  padding-block: 32px;
+}
+
+.header-icons {
+  display: flex;
+  gap: 40px;
+}
+
+li {
+  list-style: none;
+}
+
+.avatar {
+  vertical-align: middle;
+}
+
+.general {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 16px;
+  margin-top: 100px;
+  margin-left: 100px;
+  flex-direction: column;
+  display: flex;
+  text-align: left;
+}
+
+.text h2 {
+
+  font-family: "Montserrat" sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: left;
+}
+
+.text p {
+
+  font-family: "Open Sans" sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.download {
+  display: flex;
+  gap: 20px;
+}
+.phone-img {
+  margin-top: 88px;
+  margin-right: 165px;
+}
+
+.happy {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(128, 126, 126, 1);
+  margin-left: 165px;
+  margin-top: 160px;
+  margin-bottom: 24px;
+}
+
+.header-companies {
+  margin-left: 165px;
+  margin-top: 20px;
+}
+
+.compare-friends {
+  margin-left: 165px;
+}
+
+.compare-friends h6 {
+  margin-bottom: 16px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  margin-top: 156px
+  
+}
+
+
+.compare-friends h4 {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  margin-top: 16px;
+  margin-bottom: 72px;
+}
+
+.apple-watch {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.apple-texts h6 {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.apple-texts h1 {
+  font-family: 'Montserrat';
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+  width: 538px;
+
+}
+
+.apple-texts p {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+  width: 538px;
+
+}
+
+.apple-texts button {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #FFFFFF;
+  
+}
+.apple-texts a {
+  text-decoration: none;
+  color: #FFFFFF;
+
+}
+
+.apple-watch-image {
+  margin-top: 120px;
+  margin-right: 165px;
+}
+
+.Web-Interface h6 {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.Web-Interface h1 {
+  font-family: 'Montserrat';
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 48px;
+}
+
+.Web-Interface img {
+  margin-bottom: 120px;
+}
+
+.pricing h6 {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+  margin-inline: auto;
+}
+
+.pricing h1 {
+  font-family: 'Montserrat';
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 48px;
+  width: 647px;
+  margin-left: 232px;
+}
+
+.pricing-conditions {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.personal {
+  width: 354px;
+  height: 388px;
+  padding: 40px 0px 0px 0px;
+  border-radius: 12px;
+  background-color: #121212;
+  margin-bottom: 120px;
+
+}
+.personal h2 {
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.personal p {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+  margin-inline: 40px;
+  width: 274px;
+}
+.personal h1 {
+  font-family: 'Montserrat';
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #FFFFFF;
+  margin-left: -150px;
+}
+.Pricing-Subscribe-button {
+  font-family: 'Montserrat';
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #DC3545;
+  width: 274px;
+  height: 64px;
+  padding: 16px 72px 16px 72px;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-left: 40px;
+}
+.Agency {
+  width: 354px;
+  height: 388px;
+  padding: 40px 0px 0px 0px;
+  border-radius: 12px;
+  background-color: #121212;
+  margin-bottom: 120px;
+
+}
+.Agency h2 {
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.Agency p {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+  margin-inline: 40px;
+  width: 274px;
+}
+.Agency h1 {
+  font-family: 'Montserrat';
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #FFFFFF;
+  margin-left: -150px;
+}
+.Agency-Subscribe-button {
+  font-family: 'Montserrat';
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #DC3545;
+  width: 274px;
+  height: 64px;
+  padding: 16px 72px 16px 72px;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-left: 40px;
+}
+.Corporate {
+  margin-right: 165px;
+  width: 354px;
+  height: 388px;
+  padding: 40px 0px 0px 0px;
+  border-radius: 12px;
+  background-color: #121212;
+  margin-bottom: 120px;
+
+}
+.Corporate h2 {
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.Corporate p {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+  margin-inline: 40px;
+  width: 274px;
+}
+.Corporate h1 {
+  font-family: 'Montserrat';
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #FFFFFF;
+  margin-left: -150px;
+}
+.Corporate-Subscribe-button {
+  font-family: 'Montserrat';
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #DC3545;
+  width: 274px;
+  height: 64px;
+  padding: 16px 72px 16px 72px;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.questions {
+  /*margin-left: 165px;
+  margin-right: 165px;*/
+  width: 1110px;
+  margin-top: 120px;
+  color: #FFFFFF 
+  margin: auto;    
+}
+
+.questions h2 {
+  margin-right: 165px;
+  margin-left: 165px;
+  font-family: 'Montserrat';
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+  text-align: left;
+  color: #FFFFFF
+  
+}
+
+.questions h4 {
+  margin-right: 165px;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: #FFFFFF
+}
+.questions p {
+  margin-right: 165px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  width: 749px;
+  color: #FFFFFF
+}
+
+
+hr {
+  width: 1110px;
+  height: 1px;
+  background: #3F3B3B;
+}
+
+.seventh {
+  margin-bottom: 120px;
+}
+
+.last {
+  width: 1110px;
+  height: 349px;
+  padding: auto;
+  margin-bottom: 120px;
+}
+
+.last-chapter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 24px;
+}
+/*.last-chapter h6 {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+.last-chapter a {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #807E7E;
+  text-decoration: none;
+}*/
+
